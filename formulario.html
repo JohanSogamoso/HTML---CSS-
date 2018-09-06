@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Encuesta</title>    
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body class="cuerpo">
+    <header>
+        <h1 class="titulo">ENCUESTA</h1>
+    </header>    
+    <form method="POST GET" action="fichero">
+        <p class="letra">*Por favor no deje espacios en blanco</p>
+        <p class="letra">*Dijite su nombre:<input type="text"></p>
+        <p class="letra">*Fecha nacimiento:<input type="date" name="nacimiento"></p>
+
+        <p class="letra">Actividades le gusta hacer en los ratos libres:<textarea name="ratos libres" rows="5" cols="20"></textarea></p>
+        <p class="letra">Indicar los deportes que practica:</p>
+        <p class="opcion"><input type="checkbox" name="Futbol">Futbol<br>
+        <input type="checkbox" name="Baloncesto">Baloncesto<br>
+        <input type="checkbox" name="VoleyBall">VoleyBall<br>
+        <input type="checkbox" name="Patinaje">Patinaje<br>
+        <input type="checkbox" name="Ninguno">Ninguno</p>
+
+        <p class="letra">Selecione que le gusta mas de la siguientes actividades:</p>
+        <p class="opcion"><input type="radio" name="jugar" value="opcion 1">Jugar en el parque<br>
+            <input type="radio" name="dormir" value="opcion 2">Dormir<br>
+            <input type="radio" name="leer" value="opcion 3">Leer un libro<br>
+            <input type="radio" name="navegar" value="opcion 4">Estar en internet</p>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

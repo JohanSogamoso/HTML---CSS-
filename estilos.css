@@ -1,0 +1,21 @@
+.titulo{
+    color: chocolate;
+    text-align: center;
+    font-style: italic;
+    font-family: georgia;
+}
+
+.cuerpo{
+    background-image: url("burbuja.jpg");
+    background-color: #cccccc;
+}
+
+.letra{
+    font-family: arial narrow;
+    color: aquamarine; 
+}
+
+.opcion{
+    color: coral;
+    font-style: italic;
+}

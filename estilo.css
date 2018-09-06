@@ -1,0 +1,18 @@
+h3{
+    color: brown;
+    text-align: center;
+    font-style: oblique;
+}
+
+.parrafos{
+    font-size: 9px;
+    hyphens: inherit;                                  
+}
+
+.imagen{
+
+}
+
+#piePagina{
+    font-family: arial;
+}
